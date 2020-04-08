@@ -1,0 +1,17 @@
+name: ShockToPiggyAH
+main: twisted\shocktopiggyah\ShockToPiggyAH
+version: 1.0.0
+api: 3.0.0
+load: POSTWORLD
+author: Twisted
+depend: PiggyAuctions
+extensions: SQLite3
+website: "https://github.com/TwistedAsylumMC/PiggyAuctions/"
+commands:
+    convertah:
+        description: Convert an AuctionHouse database to PiggyAuctions
+        permission: shocktopiggyah.convertah
+permissions:
+    shocktopiggyah.convertah:
+        default: op
+        description: "Allows the usage of /convertah"
